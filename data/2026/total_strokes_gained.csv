@@ -1,4 +1,4 @@
-PLAYER_ID,PLAYER,SEASON,average_strokes_gained,strokes_gained_total,strokes_gained_tee_to_green,strokes_gained_putting,MEASURED ROUNDS
+PLAYER_ID,PLAYER,season,average_strokes_gained,strokes_gained_total,strokes_gained_tee_to_green,strokes_gained_putting,rounds_played
 46046,Scottie Scheffler,2026,2.249,152.927,113.865,39.061,68
 40098,Matt Fitzpatrick,2026,1.359,95.1,83.829,11.269,70
 28237,Rory McIlroy,2026,1.341,61.668,50.488,11.179,46
