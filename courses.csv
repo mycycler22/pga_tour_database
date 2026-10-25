@@ -1,77 +1,77 @@
-course_id,course_name,tournament_id,city,state_province,country
-46610,Shinnecock Hills Golf Club,40,Southampton,New York,USA
-47739,Aronimink Golf Club,4,Newtown Square,Pennsylvania,USA
-45554,Augusta National Golf Club,17,Augusta,Georgia,USA
-46222,Muirfield Village Golf Club,18,Dublin,Ohio,USA
-40818,Royal Birkdale Golf Club,35,Southport,England,UK
-41478,TPC Sawgrass - THE PLAYERS Stadium Course,31,Ponte Vedra Beach,Florida,USA
-45302,Innisbrook Resort and Golf Club - Copperhead,42,Palm Harbor,Florida,USA
-49292,TPC Southwind,11,Memphis,Tennessee,USA
-42170,Torrey Pines Golf Course (South Course),10,San Diego,California,USA
-46871,Arnold Palmer's Bay Hill Club & Lodge,3,Orlando,Florida,USA
-41084,Colonial Country Club,7,Fort Worth,Texas,USA
-40289,The Renaissance Club,13,North Berwick,Scotland,UK
-49909,PGA National - Champion Course,8,Palm Beach Gardens,Florida,USA
-46349,Quail Hollow Club,39,Charlotte,North Carolina,USA
-42788,TPC Scottsdale (Stadium Course),43,Scottsdale,Arizona,USA
-46927,Waialae Country Club,29,Honolulu,Hawaii,USA
-47830,TPC Toronto at Osprey Valley - North Course,24,Caledon,Ontario,Canada
-45370,Memorial Park Golf Course,33,Houston,Texas,USA
-45982,Detroit Golf Club,26,Detroit,Michigan,USA
-44171,Dunes Golf and Beach Club,20,Myrtle Beach,South Carolina,USA
-41642,TPC San Antonio - The Oaks Course,41,San Antonio,Texas,USA
-43865,Grand Reserve Golf Club,23,Rio Grande,Puerto Rico,USA
-45951,Sedgefield Country Club,46,Greensboro,North Carolina,USA
-41843,Hurstbourne Country Club,14,Louisville,Kentucky,USA
-41117,Trump National Doral - Blue Monster Course,16,Doral,Florida,USA
-49150,Bellerive Country Club,4,Town and Country,Missouri,USA
-46758,The Riviera Country Club,12,Pacific Palisades,California,USA
-42221,Yokohama Country Club,47,Yokohama,Kanagawa,Japan
-46419,Harbour Town Golf Links,25,Hilton Head Island,South Carolina,USA
-40059,Puntacana Resort & Club (Corales Golf Course),9,Punta Cana,La Altagracia,Dominican Republic
-42328,TPC Twin Cities,1,Blaine,Minnesota,USA
-45629,TPC Deere Run,15,Silvis,Illinois,USA
-47127,Pete Dye Stadium Course,34,La Quinta,California,USA
-49674,East Lake Golf Club,32,Atlanta,Georgia,USA
-42674,The Cliffs at Walnut Cove,44,Arden,North Carolina,USA
-48037,Spyglass Hill Golf Course,2,Pebble Beach,California,USA
-47473,TPC Craig Ranch,30,McKinney,Texas,USA
-47438,TPC River Highlands,38,Cromwell,Connecticut,USA
-44913,Pebble Beach Golf Links,2,Pebble Beach,California,USA
-44427,Torrey Pines Golf Course (North Course),10,San Diego,California,USA
-48099,Black Desert Resort,5,Ivins,Utah,USA
-46426,La Quinta Country Club,34,La Quinta,California,USA
-43701,Nicklaus Tournament Course,34,La Quinta,California,USA
-46654,Oakmont Country Club,40,Oakmont,Pennsylvania,USA
-49191,Hurstbourne Country Club (Championship Course),14,Louisville,Kentucky,USA
-43890,Innisbrook Resort (Copperhead Course),42,Palm Harbor,Florida,USA
-41077,Royal Portrush Golf Club,35,Portrush,Northern Ireland,UK
-45522,TPC San Antonio (Oaks Course),41,San Antonio,Texas,USA
-49925,Caves Valley Golf Club,4,Owings Mills,Maryland,USA
-43737,TPC Sawgrass (THE PLAYERS Stadium Course),31,Ponte Vedra Beach,Florida,USA
-40756,Port Royal Golf Course,6,Southampton,Bermuda,Bermuda
-47740,Silverado Resort (North Course),22,Napa,California,USA
-43689,Puntacana Resort (Corales Golf Course),9,Punta Cana,La Altagracia,Dominican Republic
-40351,The Philadelphia Cricket Club (Wissahickon Course),39,Flourtown,Pennsylvania,USA
-42633,TPC Toronto at Osprey Valley (North Course),24,Caledon,Ontario,Canada
-43538,Vidanta Vallarta,19,Nuevo Vallarta,Nayarit,Mexico
-43810,PGA National Resort (The Champion Course),8,Palm Beach Gardens,Florida,USA
-49799,The Country Club of Jackson,27,Jackson,Mississippi,USA
-43456,Sea Island Golf Club (Seaside Course),36,St. Simons Island,Georgia,USA
-41411,El Cardonal at Diamante,45,Cabo San Lucas,Baja California Sur,Mexico
-48390,Sea Island Golf Club (Plantation Course),36,St. Simons Island,Georgia,USA
-42754,Plantation Course at Kapalua,37,Maui,Hawaii,USA
-46412,Pinehurst Resort & Country Club (Course No. 2),40,Pinehurst,North Carolina,USA
-42300,Royal Troon,35,Troon,Scotland,UK
-44693,Hamilton Golf & Country Club,24,Hamilton,Ontario,Canada
-45594,Valhalla Golf Club,21,Louisville,Kentucky,USA
-47456,Castle Pines Golf Club,4,Castle Rock,Colorado,USA
-44138,The Riviera Country Club,12,Pacific Palisades,California,USA
-43227,PGA National Resort (The Champion),8,Palm Beach Gardens,Florida,USA
-42810,The Dunes Golf and Beach Club,20,Myrtle Beach,South Carolina,USA
-44819,ACCORDIA GOLF Narashino Country Club,47,Narashino,Chiba,Japan
-48346,TPC Summerlin,28,Las Vegas,Nevada,USA
-45282,Puntacana Resort & Club (Corales Golf Course),9,Punta Cana,La Altagracia,Dominican Republic
-46832,El Cardonal at Diamante Cabo San Lucas,45,Cabo San Lucas,Baja California Sur,Mexico
-48639,Keene Trace Golf Club (Champion Trace),14,Nicholasville,Kentucky,USA
-41698,La Quinta CC,34,La Quinta,California,USA
+course_id,course_name,city,state_province,country,tournament_id
+46610,Shinnecock Hills Golf Club,Southampton,New York,USA,40
+47739,Aronimink Golf Club,Newtown Square,Pennsylvania,USA,4
+45554,Augusta National Golf Club,Augusta,Georgia,USA,17
+46222,Muirfield Village Golf Club,Dublin,Ohio,USA,18
+40818,Royal Birkdale Golf Club,Southport,England,UK,35
+41478,TPC Sawgrass - THE PLAYERS Stadium Course,Ponte Vedra Beach,Florida,USA,31
+45302,Innisbrook Resort and Golf Club - Copperhead,Palm Harbor,Florida,USA,42
+49292,TPC Southwind,Memphis,Tennessee,USA,11
+42170,Torrey Pines Golf Course (South Course),San Diego,California,USA,10
+46871,Arnold Palmer's Bay Hill Club & Lodge,Orlando,Florida,USA,3
+41084,Colonial Country Club,Fort Worth,Texas,USA,7
+40289,The Renaissance Club,North Berwick,Scotland,UK,13
+49909,PGA National - Champion Course,Palm Beach Gardens,Florida,USA,8
+46349,Quail Hollow Club,Charlotte,North Carolina,USA,39
+42788,TPC Scottsdale (Stadium Course),Scottsdale,Arizona,USA,43
+46927,Waialae Country Club,Honolulu,Hawaii,USA,29
+47830,TPC Toronto at Osprey Valley - North Course,Caledon,Ontario,Canada,24
+45370,Memorial Park Golf Course,Houston,Texas,USA,33
+45982,Detroit Golf Club,Detroit,Michigan,USA,26
+44171,Dunes Golf and Beach Club,Myrtle Beach,South Carolina,USA,20
+41642,TPC San Antonio - The Oaks Course,San Antonio,Texas,USA,41
+43865,Grand Reserve Golf Club,Rio Grande,Puerto Rico,USA,23
+45951,Sedgefield Country Club,Greensboro,North Carolina,USA,46
+41843,Hurstbourne Country Club,Louisville,Kentucky,USA,14
+41117,Trump National Doral - Blue Monster Course,Doral,Florida,USA,16
+49150,Bellerive Country Club,Town and Country,Missouri,USA,4
+46758,The Riviera Country Club,Pacific Palisades,California,USA,12
+42221,Yokohama Country Club,Yokohama,Kanagawa,Japan,47
+46419,Harbour Town Golf Links,Hilton Head Island,South Carolina,USA,25
+40059,Puntacana Resort & Club (Corales Golf Course),Punta Cana,La Altagracia,Dominican Republic,9
+42328,TPC Twin Cities,Blaine,Minnesota,USA,1
+45629,TPC Deere Run,Silvis,Illinois,USA,15
+47127,Pete Dye Stadium Course,La Quinta,California,USA,34
+49674,East Lake Golf Club,Atlanta,Georgia,USA,32
+42674,The Cliffs at Walnut Cove,Arden,North Carolina,USA,44
+48037,Spyglass Hill Golf Course,Pebble Beach,California,USA,2
+47473,TPC Craig Ranch,McKinney,Texas,USA,30
+47438,TPC River Highlands,Cromwell,Connecticut,USA,38
+44913,Pebble Beach Golf Links,Pebble Beach,California,USA,2
+44427,Torrey Pines Golf Course (North Course),San Diego,California,USA,10
+48099,Black Desert Resort,Ivins,Utah,USA,5
+46426,La Quinta Country Club,La Quinta,California,USA,34
+43701,Nicklaus Tournament Course,La Quinta,California,USA,34
+46654,Oakmont Country Club,Oakmont,Pennsylvania,USA,40
+49191,Hurstbourne Country Club (Championship Course),Louisville,Kentucky,USA,14
+43890,Innisbrook Resort (Copperhead Course),Palm Harbor,Florida,USA,42
+41077,Royal Portrush Golf Club,Portrush,Northern Ireland,UK,35
+45522,TPC San Antonio (Oaks Course),San Antonio,Texas,USA,41
+49925,Caves Valley Golf Club,Owings Mills,Maryland,USA,4
+43737,TPC Sawgrass (THE PLAYERS Stadium Course),Ponte Vedra Beach,Florida,USA,31
+40756,Port Royal Golf Course,Southampton,Bermuda,Bermuda,6
+47740,Silverado Resort (North Course),Napa,California,USA,22
+43689,Puntacana Resort (Corales Golf Course),Punta Cana,La Altagracia,Dominican Republic,9
+40351,The Philadelphia Cricket Club (Wissahickon Course),Flourtown,Pennsylvania,USA,39
+42633,TPC Toronto at Osprey Valley (North Course),Caledon,Ontario,Canada,24
+43538,Vidanta Vallarta,Nuevo Vallarta,Nayarit,Mexico,19
+43810,PGA National Resort (The Champion Course),Palm Beach Gardens,Florida,USA,8
+49799,The Country Club of Jackson,Jackson,Mississippi,USA,27
+43456,Sea Island Golf Club (Seaside Course),St. Simons Island,Georgia,USA,36
+41411,El Cardonal at Diamante,Cabo San Lucas,Baja California Sur,Mexico,45
+48390,Sea Island Golf Club (Plantation Course),St. Simons Island,Georgia,USA,36
+42754,Plantation Course at Kapalua,Maui,Hawaii,USA,37
+46412,Pinehurst Resort & Country Club (Course No. 2),Pinehurst,North Carolina,USA,40
+42300,Royal Troon,Troon,Scotland,UK,35
+44693,Hamilton Golf & Country Club,Hamilton,Ontario,Canada,24
+45594,Valhalla Golf Club,Louisville,Kentucky,USA,21
+47456,Castle Pines Golf Club,Castle Rock,Colorado,USA,4
+44138,The Riviera Country Club,Pacific Palisades,California,USA,12
+43227,PGA National Resort (The Champion),Palm Beach Gardens,Florida,USA,8
+42810,The Dunes Golf and Beach Club,Myrtle Beach,South Carolina,USA,20
+44819,ACCORDIA GOLF Narashino Country Club,Narashino,Chiba,Japan,47
+48346,TPC Summerlin,Las Vegas,Nevada,USA,28
+45282,Puntacana Resort & Club (Corales Golf Course),Punta Cana,La Altagracia,Dominican Republic,9
+46832,El Cardonal at Diamante Cabo San Lucas,Cabo San Lucas,Baja California Sur,Mexico,45
+48639,Keene Trace Golf Club (Champion Trace),Nicholasville,Kentucky,USA,14
+41698,La Quinta CC,La Quinta,California,USA,34
