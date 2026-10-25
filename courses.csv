@@ -40,22 +40,14 @@ course_id,course_name,city,state_province,country,tournament_id
 44913,Pebble Beach Golf Links,Pebble Beach,California,USA,2
 44427,Torrey Pines Golf Course (North Course),San Diego,California,USA,10
 48099,Black Desert Resort,Ivins,Utah,USA,5
-46426,La Quinta Country Club,La Quinta,California,USA,34
 43701,Nicklaus Tournament Course,La Quinta,California,USA,34
 46654,Oakmont Country Club,Oakmont,Pennsylvania,USA,40
-49191,Hurstbourne Country Club (Championship Course),Louisville,Kentucky,USA,14
-43890,Innisbrook Resort (Copperhead Course),Palm Harbor,Florida,USA,42
 41077,Royal Portrush Golf Club,Portrush,Northern Ireland,UK,35
-45522,TPC San Antonio (Oaks Course),San Antonio,Texas,USA,41
 49925,Caves Valley Golf Club,Owings Mills,Maryland,USA,4
-43737,TPC Sawgrass (THE PLAYERS Stadium Course),Ponte Vedra Beach,Florida,USA,31
 40756,Port Royal Golf Course,Southampton,Bermuda,Bermuda,6
 47740,Silverado Resort (North Course),Napa,California,USA,22
-43689,Puntacana Resort (Corales Golf Course),Punta Cana,La Altagracia,Dominican Republic,9
 40351,The Philadelphia Cricket Club (Wissahickon Course),Flourtown,Pennsylvania,USA,39
-42633,TPC Toronto at Osprey Valley (North Course),Caledon,Ontario,Canada,24
 43538,Vidanta Vallarta,Nuevo Vallarta,Nayarit,Mexico,19
-43810,PGA National Resort (The Champion Course),Palm Beach Gardens,Florida,USA,8
 49799,The Country Club of Jackson,Jackson,Mississippi,USA,27
 43456,Sea Island Golf Club (Seaside Course),St. Simons Island,Georgia,USA,36
 41411,El Cardonal at Diamante,Cabo San Lucas,Baja California Sur,Mexico,45
@@ -66,12 +58,7 @@ course_id,course_name,city,state_province,country,tournament_id
 44693,Hamilton Golf & Country Club,Hamilton,Ontario,Canada,24
 45594,Valhalla Golf Club,Louisville,Kentucky,USA,21
 47456,Castle Pines Golf Club,Castle Rock,Colorado,USA,4
-44138,The Riviera Country Club,Pacific Palisades,California,USA,12
-43227,PGA National Resort (The Champion),Palm Beach Gardens,Florida,USA,8
 42810,The Dunes Golf and Beach Club,Myrtle Beach,South Carolina,USA,20
 44819,ACCORDIA GOLF Narashino Country Club,Narashino,Chiba,Japan,47
 48346,TPC Summerlin,Las Vegas,Nevada,USA,28
-45282,Puntacana Resort & Club (Corales Golf Course),Punta Cana,La Altagracia,Dominican Republic,9
-46832,El Cardonal at Diamante Cabo San Lucas,Cabo San Lucas,Baja California Sur,Mexico,45
 48639,Keene Trace Golf Club (Champion Trace),Nicholasville,Kentucky,USA,14
-41698,La Quinta CC,La Quinta,California,USA,34
