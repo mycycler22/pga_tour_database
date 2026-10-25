@@ -1,3 +1,3 @@
-## Additionals
+## Goals
 
-- Create a player ID/players only data set
+- Create ER/Relational Schema
