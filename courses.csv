@@ -1,77 +1,77 @@
-course_id,course_name
-46610,Shinnecock Hills Golf Club
-47739,Aronimink Golf Club
-45554,Augusta National Golf Club
-46222,Muirfield Village Golf Club
-40818,Royal Birkdale Golf Club
-41478,TPC Sawgrass - THE PLAYERS Stadium Course
-45302,Innisbrook Resort and Golf Club - Copperhead
-49292,TPC Southwind
-42170,Torrey Pines Golf Course (South Course)
-46871,Arnold Palmer's Bay Hill Club & Lodge
-41084,Colonial Country Club
-40289,The Renaissance Club
-49909,PGA National - Champion Course
-46349,Quail Hollow Club
-42788,TPC Scottsdale (Stadium Course)
-46927,Waialae Country Club
-47830,TPC Toronto at Osprey Valley - North Course
-45370,Memorial Park Golf Course
-45982,Detroit Golf Club
-44171,Dunes Golf and Beach Club
-41642,TPC San Antonio - The Oaks Course
-43865,Grand Reserve Golf Club
-45951,Sedgefield Country Club
-41843,Hurstbourne Country Club
-41117,Trump National Doral - Blue Monster Course
-49150,Bellerive Country Club
-46758,The Riviera Country Club
-42221,Yokohama Country Club
-46419,Harbour Town Golf Links
-40059,Puntacana Resort & Club (Corales Golf Course)
-42328,TPC Twin Cities
-45629,TPC Deere Run
-47127,Pete Dye Stadium Course
-49674,East Lake Golf Club
-42674,The Cliffs at Walnut Cove
-48037,Spyglass Hill Golf Course
-47473,TPC Craig Ranch
-47438,TPC River Highlands
-44913,Pebble Beach Golf Links
-44427,Torrey Pines Golf Course (North Course)
-48099,Black Desert Resort
-46426,La Quinta Country Club
-43701,Nicklaus Tournament Course
-46654,Oakmont Country Club
-49191,Hurstbourne Country Club (Championship Course)
-43890,Innisbrook Resort (Copperhead Course)
-41077,Royal Portrush Golf Club
-45522,TPC San Antonio (Oaks Course)
-49925,Caves Valley Golf Club
-43737,TPC Sawgrass (THE PLAYERS Stadium Course)
-40756,Port Royal Golf Course
-47740,Silverado Resort (North Course)
-43689,Puntacana Resort (Corales Golf Course)
-40351,The Philadelphia Cricket Club (Wissahickon Course)
-42633,TPC Toronto at Osprey Valley (North Course)
-43538,Vidanta Vallarta
-43810,PGA National Resort (The Champion Course)
-49799,The Country Club of Jackson
-43456,Sea Island Golf Club (Seaside Course)
-41411,El Cardonal at Diamante
-48390,Sea Island Golf Club (Plantation Course)
-42754,Plantation Course at Kapalua
-46412,Pinehurst Resort & Country Club (Course No. 2)
-42300,Royal Troon
-44693,Hamilton Golf & Country Club
-45594,Valhalla Golf Club
-47456,Castle Pines Golf Club
-44138,The Riviera Country Club
-43227,PGA National Resort (The Champion)
-42810,The Dunes Golf and Beach Club
-44819,ACCORDIA GOLF Narashino Country Club
-48346,TPC Summerlin
-45282,Puntacana Resort & Club (Corales Golf Course)
-46832,El Cardonal at Diamante Cabo San Lucas
-48639,Keene Trace Golf Club (Champion Trace)
-41698,La Quinta CC
+course_id,course_name,tournament_id
+46610,Shinnecock Hills Golf Club,40
+47739,Aronimink Golf Club,4
+45554,Augusta National Golf Club,17
+46222,Muirfield Village Golf Club,18
+40818,Royal Birkdale Golf Club,35
+41478,TPC Sawgrass - THE PLAYERS Stadium Course,31
+45302,Innisbrook Resort and Golf Club - Copperhead,42
+49292,TPC Southwind,11
+42170,Torrey Pines Golf Course (South Course),10
+46871,Arnold Palmer's Bay Hill Club & Lodge,3
+41084,Colonial Country Club,7
+40289,The Renaissance Club,13
+49909,PGA National - Champion Course,8
+46349,Quail Hollow Club,39
+42788,TPC Scottsdale (Stadium Course),43
+46927,Waialae Country Club,29
+47830,TPC Toronto at Osprey Valley - North Course,24
+45370,Memorial Park Golf Course,33
+45982,Detroit Golf Club,26
+44171,Dunes Golf and Beach Club,20
+41642,TPC San Antonio - The Oaks Course,41
+43865,Grand Reserve Golf Club,23
+45951,Sedgefield Country Club,46
+41843,Hurstbourne Country Club,14
+41117,Trump National Doral - Blue Monster Course,16
+49150,Bellerive Country Club,4
+46758,The Riviera Country Club,12
+42221,Yokohama Country Club,47
+46419,Harbour Town Golf Links,25
+40059,Puntacana Resort & Club (Corales Golf Course),9
+42328,TPC Twin Cities,1
+45629,TPC Deere Run,15
+47127,Pete Dye Stadium Course,34
+49674,East Lake Golf Club,32
+42674,The Cliffs at Walnut Cove,44
+48037,Spyglass Hill Golf Course,2
+47473,TPC Craig Ranch,30
+47438,TPC River Highlands,38
+44913,Pebble Beach Golf Links,2
+44427,Torrey Pines Golf Course (North Course),10
+48099,Black Desert Resort,5
+46426,La Quinta Country Club,34
+43701,Nicklaus Tournament Course,34
+46654,Oakmont Country Club,40
+49191,Hurstbourne Country Club (Championship Course),14
+43890,Innisbrook Resort (Copperhead Course),42
+41077,Royal Portrush Golf Club,35
+45522,TPC San Antonio (Oaks Course),41
+49925,Caves Valley Golf Club,4
+43737,TPC Sawgrass (THE PLAYERS Stadium Course),31
+40756,Port Royal Golf Course,6
+47740,Silverado Resort (North Course),22
+43689,Puntacana Resort (Corales Golf Course),9
+40351,The Philadelphia Cricket Club (Wissahickon Course),39
+42633,TPC Toronto at Osprey Valley (North Course),24
+43538,Vidanta Vallarta,19
+43810,PGA National Resort (The Champion Course),8
+49799,The Country Club of Jackson,27
+43456,Sea Island Golf Club (Seaside Course),36
+41411,El Cardonal at Diamante,45
+48390,Sea Island Golf Club (Plantation Course),36
+42754,Plantation Course at Kapalua,37
+46412,Pinehurst Resort & Country Club (Course No. 2),40
+42300,Royal Troon,35
+44693,Hamilton Golf & Country Club,24
+45594,Valhalla Golf Club,21
+47456,Castle Pines Golf Club,4
+44138,The Riviera Country Club,12
+43227,PGA National Resort (The Champion),8
+42810,The Dunes Golf and Beach Club,20
+44819,ACCORDIA GOLF Narashino Country Club,47
+48346,TPC Summerlin,28
+45282,Puntacana Resort & Club (Corales Golf Course),9
+46832,El Cardonal at Diamante Cabo San Lucas,45
+48639,Keene Trace Golf Club (Champion Trace),14
+41698,La Quinta CC,34
