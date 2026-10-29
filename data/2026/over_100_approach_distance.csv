@@ -1,4 +1,4 @@
-PLAYER_ID,PLAYER,season,average_dist_from_pin,number_of_shots,relative_to_par
+PLAYER_ID,PLAYER,season,over_100_avg_dist_to_pin,over_100_shots,over_100_relative_to_par
 36884,Ben Kohles,2026,30.417,643,-0.17
 32839,Hideki Matsuyama,2026,30.417,1006,-0.14
 60019,Jackson Suber,2026,30.5,742,-0.13

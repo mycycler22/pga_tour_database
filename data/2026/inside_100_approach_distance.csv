@@ -1,4 +1,4 @@
-PLAYER_ID,PLAYER,season,average_dist_from_pin,number_of_shots,relative_to_par
+PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_relative_to_par
 25900,Lucas Glover,2026,13.583,90,-0.14
 57975,Harry Hall,2026,13.583,88,-0.23
 39971,Sungjae Im,2026,13.75,67,-0.28
