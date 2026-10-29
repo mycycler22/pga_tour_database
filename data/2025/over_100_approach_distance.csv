@@ -1,4 +1,4 @@
-PLAYER_ID,PLAYER,season,average_dist_from_pin,number_of_shots,relative_to_par
+PLAYER_ID,PLAYER,season,over_100_average_dist_from_pin,over_100_shots,over_100_relative_to_par
 46717,Viktor Hovland,2025,30.083,672,-0.14
 48117,Kurt Kitayama,2025,30.083,760,-0.14
 46046,Scottie Scheffler,2025,30.083,848,-0.2

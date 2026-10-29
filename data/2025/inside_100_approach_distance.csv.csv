@@ -1,4 +1,4 @@
-PLAYER_ID,PLAYER,season,average_dist_to_pin,number_of_shots,relative_to_par
+PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_relative_to_par
 46601,Trey Mullinax,2025,13.29,65,-0.2
 34098,Russell Henley,2025,13.546,86,-0.34
 50582,Jeremy Paul,2025,13.782,59,-0.19

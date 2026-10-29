@@ -1,4 +1,4 @@
-PLAYER_ID,PLAYER,season,average_dist_from_pin,number_of_shots,relative_to_par
+PLAYER_ID,PLAYER,season,over_100_avg_dist_to_pin,over_100_shots,over_100_relative_to_par
 48117,Kurt Kitayama,2024,30.063,826,-0.14
 35532,Tom Hoge,2024,30.594,1109,-0.13
 59143,Mac Meissner,2024,30.607,781,-0.15
@@ -8,7 +8,7 @@ PLAYER_ID,PLAYER,season,average_dist_from_pin,number_of_shots,relative_to_par
 57900,Chandler Phillips,2024,31.072,913,-0.15
 39324,J.J. Spaun,2024,31.052,860,-0.14
 32757,Patton Kizzire,2024,31.199,627,-0.14
-27064,Jhonattan Vegas,2024,31.290,704,-0.14
+27064,Jhonattan Vegas,2024,31.29,704,-0.14
 33948,Byeong Hun An,2024,31.423,699,-0.12
 48084,Wesley Bryan,2024,31.473,371,-0.09
 52453,Nicolai Højgaard,2024,31.555,501,-0.09
@@ -19,11 +19,11 @@ PLAYER_ID,PLAYER,season,average_dist_from_pin,number_of_shots,relative_to_par
 50095,Austin Smotherman,2024,31.729,458,-0.11
 60004,Jacob Bridgeman,2024,31.814,684,-0.16
 46717,Viktor Hovland,2024,31.945,597,-0.13
-32839,Hideki Matsuyama,2024,31.900,750,-0.19
-52514,Trace Crowe,2024,32.000,595,-0.14
+32839,Hideki Matsuyama,2024,31.9,750,-0.19
+52514,Trace Crowe,2024,32,595,-0.14
 52513,Carson Young,2024,32.175,940,-0.11
 56630,Akshay Bhatia,2024,32.214,960,-0.14
-29936,Ryan Fox,2024,32.210,741,-0.14
+29936,Ryan Fox,2024,32.21,741,-0.14
 45242,Kevin Yu,2024,32.291,740,-0.13
 26596,Ryan Moore,2024,32.319,838,-0.08
 27214,Kevin Streelman,2024,32.374,690,-0.08
@@ -75,18 +75,18 @@ PLAYER_ID,PLAYER,season,average_dist_from_pin,number_of_shots,relative_to_par
 33448,Justin Thomas,2024,33.321,683,-0.13
 51766,Wyndham Clark,2024,33.425,682,-0.17
 47988,Nick Hardy,2024,33.443,864,-0.1
-47679,Victor Perez,2024,33.420,741,-0.11
+47679,Victor Perez,2024,33.42,741,-0.11
 51890,Greyson Sigg,2024,33.388,834,-0.07
 29535,Brice Garnett,2024,33.473,582,-0.11
-33399,Adam Hadwin,2024,33.500,852,-0.1
-36699,Patrick Rodgers,2024,33.520,1025,-0.1
+33399,Adam Hadwin,2024,33.5,852,-0.1
+36699,Patrick Rodgers,2024,33.52,1025,-0.1
 55454,Carl Yuan,2024,33.469,605,-0.07
 32366,Kevin Chappell,2024,33.549,463,-0.1
 50497,Adrien Dumont de Chassart,2024,33.596,647,-0.06
 59866,Nick Dunlap,2024,33.591,734,-0.11
 51349,Nico Echavarria,2024,33.575,852,-0.13
 55182,Tom Kim,2024,33.583,885,-0.1
-46113,Ryan McCormick,2024,33.570,505,-0.06
+46113,Ryan McCormick,2024,33.57,505,-0.06
 29908,C.T. Pan,2024,33.609,710,-0.13
 55893,Sam Stevens,2024,33.546,916,-0.12
 46442,Maverick McNealy,2024,33.677,920,-0.14
@@ -100,7 +100,7 @@ PLAYER_ID,PLAYER,season,average_dist_from_pin,number_of_shots,relative_to_par
 29420,Billy Horschel,2024,33.865,815,-0.12
 25493,Nick Taylor,2024,33.856,932,-0.1
 34563,Chesson Hadley,2024,33.919,720,-0.09
-36799,Stephan Jaeger,2024,33.920,865,-0.13
+36799,Stephan Jaeger,2024,33.92,865,-0.13
 37455,Si Woo Kim,2024,33.904,977,-0.14
 49771,J.T. Poston,2024,33.952,954,-0.14
 50493,Justin Suh,2024,33.958,748,-0.08
@@ -113,10 +113,10 @@ PLAYER_ID,PLAYER,season,average_dist_from_pin,number_of_shots,relative_to_par
 29221,Webb Simpson,2024,34.072,579,-0.08
 47983,Chad Ramey,2024,34.138,844,-0.1
 48887,Matt Wallace,2024,34.162,645,-0.12
-32070,Rafael Campos,2024,34.230,499,-0.07
+32070,Rafael Campos,2024,34.23,499,-0.07
 35450,Patrick Cantlay,2024,34.212,639,-0.14
 47663,Kevin Dougherty,2024,34.251,549,-0.07
-32102,Rickie Fowler,2024,34.220,806,-0.1
+32102,Rickie Fowler,2024,34.22,806,-0.1
 36801,Mark Hubbard,2024,34.216,1109,-0.12
 36884,Ben Kohles,2024,34.234,932,-0.08
 27129,Luke List,2024,34.254,736,-0.13
@@ -125,7 +125,7 @@ PLAYER_ID,PLAYER,season,average_dist_from_pin,number_of_shots,relative_to_par
 58168,Davis Thompson,2024,34.259,973,-0.13
 34255,Joseph Bramlett,2024,34.357,782,-0.1
 33653,Thomas Detry,2024,34.359,767,-0.11
-39977,Max Homa,2024,34.370,793,-0.1
+39977,Max Homa,2024,34.37,793,-0.1
 24024,Zach Johnson,2024,34.329,539,-0.13
 48699,Callum Tarren,2024,34.347,602,-0.04
 54421,Garrick Higgo,2024,34.435,696,-0.08
@@ -136,7 +136,7 @@ PLAYER_ID,PLAYER,season,average_dist_from_pin,number_of_shots,relative_to_par
 34046,Jordan Spieth,2024,34.598,746,-0.11
 52374,Brandon Wu,2024,34.621,742,-0.08
 35310,Lanto Griffin,2024,34.691,690,-0.11
-34098,Russell Henley,2024,34.670,814,-0.12
+34098,Russell Henley,2024,34.67,814,-0.12
 24502,Adam Scott,2024,34.687,708,-0.12
 40058,Zac Blair,2024,34.775,928,-0.06
 27936,Martin Laird,2024,34.719,681,-0.08
@@ -148,7 +148,7 @@ PLAYER_ID,PLAYER,season,average_dist_from_pin,number_of_shots,relative_to_par
 31323,Gary Woodland,2024,34.902,807,-0.09
 55708,Hayden Buckley,2024,35.037,745,-0.06
 48119,Ben Taylor,2024,35.011,607,-0.03
-32367,Jorge Campillo,2024,35.120,493,-0.11
+32367,Jorge Campillo,2024,35.12,493,-0.11
 52372,Cameron Champ,2024,35.193,577,-0.11
 30926,Chris Kirk,2024,35.163,824,-0.08
 60767,Blaine Hale Jr.,2024,35.213,405,E
@@ -163,14 +163,14 @@ PLAYER_ID,PLAYER,season,average_dist_from_pin,number_of_shots,relative_to_par
 23108,Matt Kuchar,2024,35.771,826,-0.07
 49947,Taylor Moore,2024,35.727,1000,-0.1
 34466,Peter Malnati,2024,35.947,753,-0.06
-34256,Andrew Putnam,2024,35.930,931,-0.11
+34256,Andrew Putnam,2024,35.93,931,-0.11
 50188,S.H. Kim,2024,35.958,1019,-0.1
 50484,Hayden Springer,2024,36.095,622,-0.11
 51894,Vince Whaley,2024,36.063,570,-0.1
 22371,Aaron Baddeley,2024,36.128,678,-0.08
 34374,Erik Barnes,2024,36.322,485,-0.01
 27770,Camilo Villegas,2024,36.313,476,E
-34099,Harris English,2024,36.380,939,-0.12
+34099,Harris English,2024,36.38,939,-0.12
 35461,Beau Hossler,2024,36.424,892,-0.14
 28420,Ryan Brehm,2024,36.569,504,-0.04
 33408,Tyson Alexander,2024,36.785,675,-0.07
