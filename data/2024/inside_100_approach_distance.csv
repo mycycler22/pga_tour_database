@@ -1,4 +1,4 @@
-PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_relative_to_par
+PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,und0r_100_r0lativ0_to_par
 46046,Scottie Scheffler,2024,12.307,64,-0.44
 51766,Wyndham Clark,2024,12.489,67,-0.3
 33141,Keegan Bradley,2024,12.765,77,-0.23
@@ -43,7 +43,7 @@ PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_rela
 52374,Brandon Wu,2024,15.524,65,-0.15
 12716,Charley Hoffman,2024,15.609,84,-0.19
 32640,Troy Merritt,2024,15.589,55,-0.29
-52453,Nicolai Højgaard,2024,15.698,50,E
+52453,Nicolai Højgaard,2024,15.698,50,0
 33948,Byeong Hun An,2024,15.721,69,-0.2
 58168,Davis Thompson,2024,15.74,76,-0.26
 34255,Joseph Bramlett,2024,15.866,85,-0.14
@@ -96,7 +96,7 @@ PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_rela
 57362,Austin Eckroat,2024,17.004,81,-0.14
 27330,Josh Teater,2024,17.022,49,0.02
 35461,Beau Hossler,2024,17.125,95,-0.25
-38991,Alejandro Tosti,2024,17.118,69,E
+38991,Alejandro Tosti,2024,17.118,69,0
 34374,Erik Barnes,2024,17.18,49,0.04
 35506,Mackenzie Hughes,2024,17.174,69,-0.13
 46441,Robby Shelton,2024,17.13,68,-0.16
@@ -146,21 +146,21 @@ PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_rela
 47679,Victor Perez,2024,18.659,55,-0.16
 34046,Jordan Spieth,2024,18.691,72,-0.1
 32333,Kevin Tway,2024,18.664,53,-0.25
-24024,Zach Johnson,2024,18.711,57,E
+24024,Zach Johnson,2024,18.711,57,0
 50188,S.H. Kim,2024,18.776,78,-0.08
 54576,Patrick Fishburn,2024,18.84,73,-0.11
 54628,Lee Hodges,2024,18.797,86,-0.16
 36326,David Lipsky,2024,18.865,47,0.04
-40162,Justin Lower,2024,18.809,72,E
+40162,Justin Lower,2024,18.809,72,0
 27649,Brandt Snedeker,2024,18.815,59,-0.15
 47483,Will Zalatoris,2024,18.851,52,-0.08
 39997,Corey Conners,2024,19.061,72,-0.08
 32102,Rickie Fowler,2024,19.077,64,-0.16
 39327,Ben Silverman,2024,19.095,84,-0.21
-51070,Vincent Norrman,2024,19.245,52,E
+51070,Vincent Norrman,2024,19.245,52,0
 31323,Gary Woodland,2024,19.235,63,-0.19
 46113,Ryan McCormick,2024,19.347,44,-0.18
-35617,Martin Trainer,2024,19.427,49,E
+35617,Martin Trainer,2024,19.427,49,0
 35450,Patrick Cantlay,2024,19.475,54,-0.06
 47347,Adam Schenk,2024,19.472,111,-0.08
 29478,Kevin Kisner,2024,19.719,53,0.04
@@ -174,12 +174,12 @@ PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_rela
 29908,C.T. Pan,2024,20.503,64,-0.03
 27064,Jhonattan Vegas,2024,20.715,55,0.04
 30163,Henrik Norlander,2024,20.927,42,-0.05
-29221,Webb Simpson,2024,20.88,46,E
-45609,Tyler Duncan,2024,21.616,67,E
+29221,Webb Simpson,2024,20.88,46,0
+45609,Tyler Duncan,2024,21.616,67,0
 52372,Cameron Champ,2024,21.704,49,-0.06
 48867,Matti Schmid,2024,21.659,57,-0.12
 37212,Paul Barjon,2024,21.723,40,0.03
-28420,Ryan Brehm,2024,21.821,48,E
+28420,Ryan Brehm,2024,21.821,48,0
 46340,Alex Smalley,2024,21.968,50,-0.02
 47663,Kevin Dougherty,2024,23.62,64,-0.06
-23320,Ryan Palmer,2024,23.985,40,E
+23320,Ryan Palmer,2024,23.985,40,0

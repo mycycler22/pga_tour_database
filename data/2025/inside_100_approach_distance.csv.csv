@@ -1,4 +1,4 @@
-PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_relative_to_par
+PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,und0r_100_r0lativ0_to_par
 46601,Trey Mullinax,2025,13.29,65,-0.2
 34098,Russell Henley,2025,13.546,86,-0.34
 50582,Jeremy Paul,2025,13.782,59,-0.19
@@ -130,7 +130,7 @@ PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_rela
 55623,Kaito Onishi,2025,17.933,50,-0.02
 34076,Joel Dahmen,2025,18.004,69,-0.17
 51696,Rico Hoey,2025,18.015,87,-0.05
-46717,Viktor Hovland,2025,18.033,63,E
+46717,Viktor Hovland,2025,18.033,63,0
 32757,Patton Kizzire,2025,17.991,73,-0.22
 34466,Peter Malnati,2025,17.965,79,-0.09
 40250,Taylor Pendrith,2025,18.013,84,-0.1
@@ -173,9 +173,9 @@ PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_rela
 48867,Matti Schmid,2025,20.25,65,-0.11
 38991,Alejandro Tosti,2025,20.301,39,-0.05
 29725,Tony Finau,2025,20.781,53,0.06
-50474,Tim Widing,2025,21,43,E
+50474,Tim Widing,2025,21,43,0
 39971,Sungjae Im,2025,21.124,95,-0.26
 64693,Matthew Riedel,2025,21.092,56,-0.07
-32070,Rafael Campos,2025,21.301,61,E
+32070,Rafael Campos,2025,21.301,61,0
 48153,Matthieu Pavon,2025,23.081,69,-0.07
 45523,Thriston Lawrence,2025,24.146,44,-0.11

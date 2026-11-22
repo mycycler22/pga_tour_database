@@ -1,4 +1,4 @@
-PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_relative_to_par
+PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,und0r_100_r0lativ0_to_par
 25900,Lucas Glover,2026,13.583,90,-0.14
 57975,Harry Hall,2026,13.583,88,-0.23
 39971,Sungjae Im,2026,13.75,67,-0.28
@@ -97,7 +97,7 @@ PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_rela
 34021,Bud Cauley,2026,17.583,92,-0.23
 34076,Joel Dahmen,2026,17.583,77,-0.12
 51997,Andrew Novak,2026,17.583,87,-0.2
-55721,Alex Fitzpatrick,2026,17.75,50,E
+55721,Alex Fitzpatrick,2026,17.75,50,0
 29535,Brice Garnett,2026,17.75,71,-0.18
 39977,Max Homa,2026,17.75,57,-0.21
 49855,Kristoffer Reitan,2026,17.75,66,0.08
@@ -118,7 +118,7 @@ PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_rela
 28252,Seamus Power,2026,18.167,58,-0.12
 63807,Neal Shipley,2026,18.167,70,-0.19
 50497,Adrien Dumont de Chassart,2026,18.25,70,-0.04
-54576,Patrick Fishburn,2026,18.25,78,E
+54576,Patrick Fishburn,2026,18.25,78,0
 48867,Matti Schmid,2026,18.25,54,-0.17
 31323,Gary Woodland,2026,18.25,86,-0.2
 59866,Nick Dunlap,2026,18.333,50,-0.06
@@ -148,7 +148,7 @@ PLAYER_ID,PLAYER,season,under_100_avg_dist_to_pin,under_100_shots,under_100_rela
 37076,Marcelo Rozo,2026,20,57,-0.09
 31646,Emiliano Grillo,2026,20.083,62,-0.24
 54628,Lee Hodges,2026,20.083,48,-0.19
-49120,Kensei Hirata,2026,20.333,46,E
+49120,Kensei Hirata,2026,20.333,46,0
 39997,Corey Conners,2026,20.5,68,-0.07
 51600,Jimmy Stanger,2026,20.583,51,-0.22
 35658,Kristoffer Ventura,2026,20.583,66,-0.17
