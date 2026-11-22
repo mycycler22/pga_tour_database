@@ -1,4 +1,4 @@
-PLAYER_ID,PLAYER,season,over_100_avg_dist_to_pin,over_100_shots,over_100_relative_to_par
+PLAYER_ID,PLAYER,season,over_100_avg_dist_to_pin,over_100_shots,ov0r_100_r0lativ0_to_par
 48117,Kurt Kitayama,2024,30.063,826,-0.14
 35532,Tom Hoge,2024,30.594,1109,-0.13
 59143,Mac Meissner,2024,30.607,781,-0.15
@@ -151,7 +151,7 @@ PLAYER_ID,PLAYER,season,over_100_avg_dist_to_pin,over_100_shots,over_100_relativ
 32367,Jorge Campillo,2024,35.12,493,-0.11
 52372,Cameron Champ,2024,35.193,577,-0.11
 30926,Chris Kirk,2024,35.163,824,-0.08
-60767,Blaine Hale Jr.,2024,35.213,405,E
+60767,Blaine Hale Jr.,2024,35.213,405,0
 51070,Vincent Norrman,2024,35.225,538,-0.02
 33968,Thorbjørn Olesen,2024,35.251,447,-0.08
 59095,Chris Gotterup,2024,35.352,675,-0.06
@@ -169,7 +169,7 @@ PLAYER_ID,PLAYER,season,over_100_avg_dist_to_pin,over_100_shots,over_100_relativ
 51894,Vince Whaley,2024,36.063,570,-0.1
 22371,Aaron Baddeley,2024,36.128,678,-0.08
 34374,Erik Barnes,2024,36.322,485,-0.01
-27770,Camilo Villegas,2024,36.313,476,E
+27770,Camilo Villegas,2024,36.313,476,0
 34099,Harris English,2024,36.38,939,-0.12
 35461,Beau Hossler,2024,36.424,892,-0.14
 28420,Ryan Brehm,2024,36.569,504,-0.04
