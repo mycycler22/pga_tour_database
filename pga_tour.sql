@@ -11,7 +11,7 @@ CREATE TABLE tournaments (
 
 SET GLOBAL local_infile = 1;
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/tournaments.csv'
+LOAD DATA LOCAL INFILE '/tournaments.csv'
 INTO TABLE tournaments
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -25,7 +25,7 @@ CREATE TABLE players(
     PLAYER VARCHAR(100) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/players.csv'
+LOAD DATA LOCAL INFILE '/players.csv'
 INTO TABLE players
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -50,7 +50,7 @@ CREATE TABLE courses (
 
 SHOW VARIABLES LIKE 'secure_file_priv';
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/courses.csv'
+LOAD DATA LOCAL INFILE '/courses.csv'
 INTO TABLE courses
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
@@ -68,7 +68,7 @@ CREATE TABLE ball_speed_2026 (
     avg_ball_speed DECIMAL(5,2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/ball_speed.csv'
+LOAD DATA LOCAL INFILE '/data/2026/ball_speed.csv'
 INTO TABLE ball_speed_2026
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
@@ -83,7 +83,7 @@ CREATE TABLE ball_speed_2025 (
     avg_ball_speed DECIMAL(5,2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/ball_speed.csv'
+LOAD DATA LOCAL INFILE '/data/2025/ball_speed.csv'
 INTO TABLE ball_speed_2025
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
@@ -99,7 +99,7 @@ CREATE TABLE ball_speed_2024 (
     avg_ball_speed DECIMAL(5,2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/ball_speed.csv'
+LOAD DATA LOCAL INFILE '/data/2024/ball_speed.csv'
 INTO TABLE ball_speed_2024
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
@@ -123,7 +123,7 @@ CREATE TABLE course_stats_2026 (
     double_bogey_plus INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/course_stats.csv'
+LOAD DATA LOCAL INFILE '/data/2026/course_stats.csv'
 INTO TABLE course_stats_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -134,8 +134,6 @@ IGNORE 1 LINES
 average_score, average_score_diff, eagles, birdies, pars, bogey, double_bogeys,
 double_bogey_plus);
 
-SELECT *
-FROM course_stats_2026;
 
 CREATE TABLE course_stats_2025 (
 	course_id INT NOT NULL PRIMARY KEY,
@@ -153,7 +151,7 @@ CREATE TABLE course_stats_2025 (
     double_bogey_plus INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/course_stats.csv'
+LOAD DATA LOCAL INFILE '/data/2025/course_stats.csv'
 INTO TABLE course_stats_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -163,9 +161,6 @@ IGNORE 1 LINES
 (course_id, course_name, season, course_par, total_yardage, 
 average_score, average_score_diff, eagles, birdies, pars, bogey, double_bogeys,
 double_bogey_plus);
-
-SELECT *
-FROM course_stats_2025;
 
 
 CREATE TABLE course_stats_2024 (
@@ -185,7 +180,7 @@ CREATE TABLE course_stats_2024 (
 );
 
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/course_stats.csv'
+LOAD DATA LOCAL INFILE '/data/2024/course_stats.csv'
 INTO TABLE course_stats_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -203,7 +198,7 @@ CREATE TABLE driving_accuracy_2026(
     fairway_percentage DECIMAL(5, 2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/driving_accuracy.csv'
+LOAD DATA LOCAL INFILE '/data/2026/driving_accuracy.csv'
 INTO TABLE driving_accuracy_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -221,7 +216,7 @@ CREATE TABLE driving_accuracy_2025(
     fairway_percentage DECIMAL(5, 2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/driving_accuracy.csv'
+LOAD DATA LOCAL INFILE '/data/2025/driving_accuracy.csv'
 INTO TABLE driving_accuracy_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -239,7 +234,7 @@ CREATE TABLE driving_accuracy_2024(
     fairway_percentage DECIMAL(5, 2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/driving_accuracy.csv'
+LOAD DATA LOCAL INFILE '/data/2024/driving_accuracy.csv'
 INTO TABLE driving_accuracy_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -257,7 +252,7 @@ CREATE TABLE driving_distance_2026 (
     total_drives INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/driving_distance.csv'
+LOAD DATA LOCAL INFILE '/data/2026/driving_distance.csv'
 INTO TABLE driving_distance_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -274,7 +269,7 @@ CREATE TABLE driving_distance_2025 (
     total_drives INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/driving_distance.csv'
+LOAD DATA LOCAL INFILE '/data/2025/driving_distance.csv'
 INTO TABLE driving_distance_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -291,8 +286,7 @@ CREATE TABLE driving_distance_2024 (
     total_drives INT NOT NULL
 );
 
-
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/driving_distance.csv'
+LOAD DATA LOCAL INFILE '/data/2024/driving_distance.csv'
 INTO TABLE driving_distance_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -310,7 +304,7 @@ CREATE TABLE greens_in_regulation_2026 (
     gir_relative_to_par DECIMAL(5, 2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/greens_in_regulation.csv'
+LOAD DATA LOCAL INFILE '/data/2026/greens_in_regulation.csv'
 INTO TABLE greens_in_regulation_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -329,7 +323,7 @@ CREATE TABLE greens_in_regulation_2025 (
     gir_relative_to_par DECIMAL(5, 2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/greens_in_regulation.csv'
+LOAD DATA LOCAL INFILE '/data/2025/greens_in_regulation.csv'
 INTO TABLE greens_in_regulation_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -348,7 +342,7 @@ CREATE TABLE greens_in_regulation_2024 (
     gir_relative_to_par DECIMAL(5, 2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/greens_in_regulation.csv'
+LOAD DATA LOCAL INFILE '/data/2024/greens_in_regulation.csv'
 INTO TABLE greens_in_regulation_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -367,7 +361,7 @@ CREATE TABLE inside_100_approach_distance_2026 (
     under_100_relative_to_par DECIMAL(5, 2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/inside_100_approach_distance.csv'
+LOAD DATA LOCAL INFILE '/data/2026/inside_100_approach_distance.csv'
 INTO TABLE inside_100_approach_distance_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -385,7 +379,7 @@ CREATE TABLE inside_100_approach_distance_2025 (
     under_100_relative_to_par DECIMAL(5, 2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/inside_100_approach_distance.csv'
+LOAD DATA LOCAL INFILE '/data/2025/inside_100_approach_distance.csv'
 INTO TABLE inside_100_approach_distance_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -403,7 +397,7 @@ CREATE TABLE inside_100_approach_distance_2024 (
     under_100_relative_to_par DECIMAL(5, 2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/inside_100_approach_distance.csv'
+LOAD DATA LOCAL INFILE '/data/2024/inside_100_approach_distance.csv'
 INTO TABLE inside_100_approach_distance_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -420,7 +414,7 @@ CREATE TABLE money_2026 (
     wins INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/money.csv'
+LOAD DATA LOCAL INFILE '/data/2026/money.csv'
 INTO TABLE money_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -438,7 +432,7 @@ CREATE TABLE money_2025 (
     wins INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/money.csv'
+LOAD DATA LOCAL INFILE '/data/2025/money.csv'
 INTO TABLE money_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -457,7 +451,7 @@ CREATE TABLE money_2024 (
 );
 
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/money.csv'
+LOAD DATA LOCAL INFILE '/data/2024/money.csv'
 INTO TABLE money_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -476,7 +470,7 @@ CREATE TABLE one_putt_pct_2026 (
     number_of_holes INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/one_putt_pct.csv'
+LOAD DATA LOCAL INFILE '/data/2026/one_putt_pct.csv'
 INTO TABLE one_putt_pct_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -495,7 +489,7 @@ CREATE TABLE one_putt_pct_2025 (
     number_of_holes INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/one_putt_pct.csv'
+LOAD DATA LOCAL INFILE '/data/2025/one_putt_pct.csv'
 INTO TABLE one_putt_pct_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -514,7 +508,7 @@ CREATE TABLE one_putt_pct_2024 (
     number_of_holes INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/one_putt_pct.csv'
+LOAD DATA LOCAL INFILE '/data/2024/one_putt_pct.csv'
 INTO TABLE one_putt_pct_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -534,7 +528,7 @@ CREATE TABLE over_100_approach_distance_2026 (
 );
 
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/over_100_approach_distance.csv'
+LOAD DATA LOCAL INFILE '/data/2026/over_100_approach_distance.csv'
 INTO TABLE over_100_approach_distance_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -553,7 +547,7 @@ CREATE TABLE over_100_approach_distance_2025 (
 );
 
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/over_100_approach_distance.csv'
+LOAD DATA LOCAL INFILE '/data/2025/over_100_approach_distance.csv'
 INTO TABLE over_100_approach_distance_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -571,7 +565,7 @@ CREATE TABLE over_100_approach_distance_2024 (
     over_100_relative_to_par DECIMAL(5,2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/over_100_approach_distance.csv'
+LOAD DATA LOCAL INFILE '/data/2024/over_100_approach_distance.csv'
 INTO TABLE over_100_approach_distance_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -589,7 +583,7 @@ CREATE TABLE putts_per_hole_2026 (
     birdie_conversion_pct DECIMAL(5, 2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/putts_per_hole.csv'
+LOAD DATA LOCAL INFILE '/data/2026/putts_per_hole.csv'
 INTO TABLE putts_per_hole_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -608,7 +602,7 @@ CREATE TABLE putts_per_hole_2025 (
     birdie_conversion_pct DECIMAL(5, 2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/putts_per_hole.csv'
+LOAD DATA LOCAL INFILE '/data/2025/putts_per_hole.csv'
 INTO TABLE putts_per_hole_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -627,7 +621,7 @@ CREATE TABLE putts_per_hole_2024 (
     birdie_conversion_pct DECIMAL(5, 2) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/putts_per_hole.csv'
+LOAD DATA LOCAL INFILE '/data/2024/putts_per_hole.csv'
 INTO TABLE putts_per_hole_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -647,7 +641,7 @@ CREATE TABLE sand_save_pct_2026 (
     over_under_par INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/sand_save_pct.csv'
+LOAD DATA LOCAL INFILE '/data/2026/sand_save_pct.csv'
 INTO TABLE sand_save_pct_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -666,7 +660,7 @@ CREATE TABLE sand_save_pct_2025 (
     over_under_par INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/sand_save_pct.csv'
+LOAD DATA LOCAL INFILE '/data/2025/sand_save_pct.csv'
 INTO TABLE sand_save_pct_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -685,7 +679,7 @@ CREATE TABLE sand_save_pct_2024 (
     over_under_par INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/sand_save_pct.csv'
+LOAD DATA LOCAL INFILE '/data/2024/sand_save_pct.csv'
 INTO TABLE sand_save_pct_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -704,7 +698,7 @@ CREATE TABLE scoring_average_2026 (
     rounds_played INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/scoring_average.csv'
+LOAD DATA LOCAL INFILE '/data/2026/scoring_average.csv'
 INTO TABLE scoring_average_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -721,7 +715,7 @@ CREATE TABLE scoring_average_2025 (
     rounds_played INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/scoring_average.csv'
+LOAD DATA LOCAL INFILE '/data/2025/scoring_average.csv'
 INTO TABLE scoring_average_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -738,7 +732,7 @@ CREATE TABLE scoring_average_2024 (
     rounds_played INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/scoring_average.csv'
+LOAD DATA LOCAL INFILE '/data/2024/scoring_average.csv'
 INTO TABLE scoring_average_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -755,7 +749,7 @@ CREATE TABLE scramble_pct_2026 (
     total_missed_greens INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/scramble_pct.csv'
+LOAD DATA LOCAL INFILE '/data/2026/scramble_pct.csv'
 INTO TABLE scramble_pct_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -773,7 +767,7 @@ CREATE TABLE scramble_pct_2025 (
     total_missed_greens INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/scramble_pct.csv'
+LOAD DATA LOCAL INFILE '/data/2025/scramble_pct.csv'
 INTO TABLE scramble_pct_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -791,7 +785,7 @@ CREATE TABLE scramble_pct_2024 (
     total_missed_greens INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/scramble_pct.csv'
+LOAD DATA LOCAL INFILE '/data/2024/scramble_pct.csv'
 INTO TABLE scramble_pct_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -809,7 +803,7 @@ CREATE TABLE strokes_gained_approach_2026 (
     total_strokes_gained_approach DECIMAL(5, 3) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/strokes_gained_approach.csv'
+LOAD DATA LOCAL INFILE '/data/2026/strokes_gained_approach.csv'
 INTO TABLE strokes_gained_approach_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -827,7 +821,7 @@ CREATE TABLE strokes_gained_approach_2025 (
     total_strokes_gained_approach DECIMAL(5, 3) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/strokes_gained_approach.csv'
+LOAD DATA LOCAL INFILE '/data/2025/strokes_gained_approach.csv'
 INTO TABLE strokes_gained_approach_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -845,7 +839,7 @@ CREATE TABLE strokes_gained_approach_2024 (
     total_strokes_gained_approach DECIMAL(5, 3) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/strokes_gained_approach.csv'
+LOAD DATA LOCAL INFILE '/data/2024/strokes_gained_approach.csv'
 INTO TABLE strokes_gained_approach_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -864,7 +858,7 @@ CREATE TABLE strokes_gained_off_the_tee_2026 (
     total_strokes_gained_ott DECIMAL(5, 3) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/strokes_gained_off_the_tee.csv'
+LOAD DATA LOCAL INFILE '/data/2026/strokes_gained_off_the_tee.csv'
 INTO TABLE strokes_gained_off_the_tee_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -881,7 +875,7 @@ CREATE TABLE strokes_gained_off_the_tee_2025 (
     total_strokes_gained_ott DECIMAL(5, 3) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/strokes_gained_off_the_tee.csv'
+LOAD DATA LOCAL INFILE '/data/2025/strokes_gained_off_the_tee.csv'
 INTO TABLE strokes_gained_off_the_tee_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -898,7 +892,7 @@ CREATE TABLE strokes_gained_off_the_tee_2024 (
     total_strokes_gained_ott DECIMAL(5, 3) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/strokes_gained_off_the_tee.csv'
+LOAD DATA LOCAL INFILE '/data/2024/strokes_gained_off_the_tee.csv'
 INTO TABLE strokes_gained_off_the_tee_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -915,7 +909,7 @@ CREATE TABLE strokes_gained_putting_2026(
     total_strokes_gained_putting DECIMAL(5, 3) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/strokes_gained_putting.csv'
+LOAD DATA LOCAL INFILE '/data/2026/strokes_gained_putting.csv'
 INTO TABLE strokes_gained_putting_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -933,7 +927,7 @@ CREATE TABLE strokes_gained_putting_2025(
 ); 
 
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/strokes_gained_putting.csv'
+LOAD DATA LOCAL INFILE '/data/2025/strokes_gained_putting.csv'
 INTO TABLE strokes_gained_putting_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -950,7 +944,7 @@ CREATE TABLE strokes_gained_putting_2024(
     total_strokes_gained_putting DECIMAL(5, 3) NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/strokes_gained_putting.csv'
+LOAD DATA LOCAL INFILE '/data/2024/strokes_gained_putting.csv'
 INTO TABLE strokes_gained_putting_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -967,7 +961,7 @@ CREATE TABLE three_putt_avoidance_2026(
     total_holes_played INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/three_putt_avoidance.csv'
+LOAD DATA LOCAL INFILE '/data/2026/three_putt_avoidance.csv'
 INTO TABLE three_putt_avoidance_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -985,7 +979,7 @@ CREATE TABLE three_putt_avoidance_2025(
     total_holes_played INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/three_putt_avoidance.csv'
+LOAD DATA LOCAL INFILE '/data/2025/three_putt_avoidance.csv'
 INTO TABLE three_putt_avoidance_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -1004,7 +998,7 @@ CREATE TABLE three_putt_avoidance_2024(
     total_holes_played INT NOT NULL
 );
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/three_putt_avoidance.csv'
+LOAD DATA LOCAL INFILE '/data/2024/three_putt_avoidance.csv'
 INTO TABLE three_putt_avoidance_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -1026,7 +1020,7 @@ CREATE TABLE total_strokes_gained_2026 (
 );
 
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2026/total_strokes_gained.csv'
+LOAD DATA LOCAL INFILE '/data/2026/total_strokes_gained.csv'
 INTO TABLE total_strokes_gained_2026
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -1049,7 +1043,7 @@ CREATE TABLE total_strokes_gained_2025 (
 );
 
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2025/total_strokes_gained.csv'
+LOAD DATA LOCAL INFILE '/data/2025/total_strokes_gained.csv'
 INTO TABLE total_strokes_gained_2025
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
@@ -1071,7 +1065,7 @@ CREATE TABLE total_strokes_gained_2024 (
 );
 
 
-LOAD DATA LOCAL INFILE '/Users/markyan/Documents/CSC 542/pga_tour_database/data/2024/total_strokes_gained.csv'
+LOAD DATA LOCAL INFILE '/data/2024/total_strokes_gained.csv'
 INTO TABLE total_strokes_gained_2024
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
